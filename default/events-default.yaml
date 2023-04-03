@@ -17,7 +17,7 @@ entries:
 - model: authentik_core.group
   id: group
   identifiers:
-    name: authentik Admins
+    name: Konvergo Auth Admins
 
 - model: authentik_policies_event_matcher.eventmatcherpolicy
   id: default-match-configuration-error

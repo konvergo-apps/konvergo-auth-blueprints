@@ -22,7 +22,7 @@ entries:
     flow_invalidation: !Find [authentik_flows.flow, [slug, default-invalidation-flow]]
     flow_user_settings: !Find [authentik_flows.flow, [slug, default-user-settings-flow]]
   identifiers:
-    domain: authentik-default
+    domain: konvergo-auth-default
     default: True
   state: created
   model: authentik_tenants.tenant
