@@ -1,6 +1,6 @@
 version: 1
 metadata:
-  name: Default - User settings flow
+  name: Konvergo Auth - Default User settings flow
 entries:
 - attrs:
     designation: stage_configuration

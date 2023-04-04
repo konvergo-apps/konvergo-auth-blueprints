@@ -1,6 +1,6 @@
 version: 1
 metadata:
-  name: Default - Invalidation flow
+  name: Konvergo Auth - Default Invalidation flow
 entries:
 - attrs:
     designation: invalidation

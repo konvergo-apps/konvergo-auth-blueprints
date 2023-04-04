@@ -1,6 +1,6 @@
 version: 1
 metadata:
-  name: Default - Provider authorization flow (explicit consent)
+  name: Konvergo Auth - Default Provider authorization flow (explicit consent)
 entries:
 - attrs:
     designation: authorization

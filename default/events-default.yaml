@@ -1,6 +1,6 @@
 version: 1
 metadata:
-  name: Default - Events Transport & Rules
+  name: Konvergo Auth - Default Events Transport & Rules
 entries:
 - model: authentik_events.notificationtransport
   id: default-email-transport
@@ -17,7 +17,7 @@ entries:
 - model: authentik_core.group
   id: group
   identifiers:
-    name: Konvergo Auth Admins
+    name: authentik Admins
 
 - model: authentik_policies_event_matcher.eventmatcherpolicy
   id: default-match-configuration-error

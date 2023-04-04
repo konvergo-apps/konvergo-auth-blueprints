@@ -1,21 +1,21 @@
 metadata:
-  name: Default - Tenant
+  name: Konvergo Auth - Default Tenant
 version: 1
 entries:
 - model: authentik_blueprints.metaapplyblueprint
   attrs:
     identifiers:
-      name: Default - Authentication flow
+      name: Konvergo Auth - Default Authentication flow
     required: false
 - model: authentik_blueprints.metaapplyblueprint
   attrs:
     identifiers:
-      name: Default - Invalidation flow
+      name: Konvergo Auth - Default Invalidation flow
     required: false
 - model: authentik_blueprints.metaapplyblueprint
   attrs:
     identifiers:
-      name: Default - User settings flow
+      name: Konvergo Auth - Default User settings flow
     required: false
 - attrs:
     flow_authentication: !Find [authentik_flows.flow, [slug, default-authentication-flow]]

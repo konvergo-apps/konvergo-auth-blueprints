@@ -1,11 +1,11 @@
 version: 1
 metadata:
-  name: Default - Authentication flow
+  name: Konvergo Auth - Default Authentication flow
 entries:
 - model: authentik_blueprints.metaapplyblueprint
   attrs:
     identifiers:
-      name: Default - Password change flow
+      name: Konvergo Auth - Default Password change flow
     required: false
 - attrs:
     designation: authentication

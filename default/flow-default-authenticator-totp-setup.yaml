@@ -1,6 +1,6 @@
 version: 1
 metadata:
-  name: Default - TOTP MFA setup flow
+  name: Konvergo Auth - Default TOTP MFA setup flow
 entries:
 - attrs:
     designation: stage_configuration

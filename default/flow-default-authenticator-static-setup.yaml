@@ -1,6 +1,6 @@
 version: 1
 metadata:
-  name: Default - Static MFA setup flow
+  name: Konvergo Auth - Default Static MFA setup flow
 entries:
 - attrs:
     designation: stage_configuration
